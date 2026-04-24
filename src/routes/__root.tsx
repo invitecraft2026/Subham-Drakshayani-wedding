@@ -27,17 +27,65 @@ function NotFoundComponent() {
 export const Route = createRootRoute({
   head: () => ({
     meta: [
-      { charSet: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
-      { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary" },
-      { name: "twitter:site", content: "@Lovable" },
-    ],
+  { charSet: "utf-8" },
+
+  {
+    name: "viewport",
+    content: "width=device-width, initial-scale=1",
+  },
+
+  {
+    title: "Drakshayani & Subham | Jain Wedding Invitation",
+  },
+
+  {
+    name: "description",
+    content:
+      "Together with the blessings of family, we invite you to celebrate the sacred union of Drakshayani & Subham. Join us for our beautiful Jain wedding celebration at Nilambika Mangala Karyalaya.",
+  },
+
+  {
+    name: "author",
+    content: "Drakshayani & Subham Wedding Invitation",
+  },
+
+  {
+    property: "og:title",
+    content: "Drakshayani & Subham | Jain Wedding Invitation",
+  },
+
+  {
+    property: "og:description",
+    content:
+      "Join us in celebrating the sacred Jain wedding of Drakshayani & Subham on 3rd & 4th May 2026 at Nilambika Mangala Karyalaya.",
+  },
+
+  {
+    property: "og:type",
+    content: "website",
+  },
+
+  {
+    property: "og:site_name",
+    content: "Drakshayani & Subham Wedding",
+  },
+
+  {
+    name: "twitter:card",
+    content: "summary_large_image",
+  },
+
+  {
+    name: "twitter:title",
+    content: "Drakshayani & Subham | Wedding Invitation",
+  },
+
+  {
+    name: "twitter:description",
+    content:
+      "You are cordially invited to the sacred Jain wedding celebration of Drakshayani & Subham.",
+  },
+],
     links: [
       {
         rel: "stylesheet",
